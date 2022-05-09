@@ -8,6 +8,7 @@ class Router
 
         $routes = [
             '/' => ['Http', 'error501'],
+            '/user/setup' => ['User', 'setupAction'],
             '/chat' => ['Http', 'error501'],
         ];
 
