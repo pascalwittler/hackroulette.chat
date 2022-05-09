@@ -11,3 +11,5 @@ function autoload($class_name) {
 }
 
 spl_autoload_register('autoload');
+
+Router::route();
