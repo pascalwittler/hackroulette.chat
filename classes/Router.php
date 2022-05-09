@@ -7,8 +7,7 @@ class Router
         $request_url = $_SERVER['REQUEST_URI'];
 
         $routes = [
-            '/' => ['Http', 'error501'],
-            '/user/setup' => ['User', 'setupAction'],
+            '/' => ['User', 'setupAction'],
             '/chat' => ['Http', 'error501'],
         ];
 
